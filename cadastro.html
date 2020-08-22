@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>eLeilaoAntiguidades</title>
+        <meta charset="UTF-8">
+
+        <script type="text/javascript" src=" charset="UTF-8"></script><style>
+                table, th, td {
+                  border: 1px solid black;
+                  border-collapse: collapse;
+                }
+                th, td {
+                  padding: 15px;
+                  text-align: left;
+                }
+                table#t01 {
+                  width: 100%;    
+                  background-color: #f1f1c1;
+                }
+                </style>  
+    </head>
+    <body >  
+    <h1>Cadastro do Usuário</h1>    
+    
+    <h2>Dados Principais</h2>
+        <table style="width:100%">
+            <tr>
+                <th>
+                    <form action="/action_page.php">
+                        <fieldset> 
+                            <legend>Dados:</legend>
+                            <label for="fname">Nome:</label><br>
+                            <input type="text" id="fname" name="fname" value=""><br>
+                            <label for="Fname">CPF:</label><br>
+                            <input type="text" id="lname" name="lname" value=""><br>
+                            <label for="Fname">Data de Nascimento:</label><br>
+                            <input type="text" id="lname" name="lname" value=""><br>
+                            <label for="Fname">Celular:</label><br>
+                            <input type="text" id="lname" name="lname" value=""><br>
+                            <label for="Fname">Telefone Fixo:</label><br>
+                            <input type="text" id="lname" name="lname" value=""><br>
+                            <label for="Fname">Telefone Comercial:</label><br>
+                            <input type="text" id="lname" name="lname" value=""><br>
+                            <label for="Fname">Sexo:</label><br>
+                                    <input type="radio" id="Menino" name="gender" value="Menino">
+                                    <label for="male">Menino</label><br>
+                                    <input type="radio" id="Menina" name="gender" value="Menina">
+                                    <label for="female">Menina</label><br>
+                                    <input type="radio" id="Qualquer coisa" name="gender" value="Qualquer coisa">
+                                    <label for="other">Outra Opção</label>
+                        </fieldset>
+                    </form>
+                </th> 
+            </tr>
+        </table>
+        <br>
+        
+        <h2>Endereço</h2>
+        <table style="width:100%">
+                <tr>
+                    <th>
+                            <form action="/action_page.php">
+                                <fieldset> 
+                                    <legend>End:</legend>
+                                    <label for="Fname">Endereço:</label><br>
+                                    <input type="text" id="lname" name="lname" value=""><br>
+                                    <label for="Fname">Nº:</label><br>
+                                    <input type="text" id="lname" name="lname" value=""><br>
+                                    <label for="Fname">Complemento:</label><br>
+                                    <input type="text" id="lname" name="lname" value=""><br>
+                                    <label for="Fname">Bairro:</label><br>
+                                    <input type="text" id="lname" name="lname" value=""><br>
+                                    <label for="Fname">Município :</label><br>
+                                    <input type="text" id="lname" name="lname" value=""><br>
+                                    <label for="Fname">Estado:</label><br>
+                                    <input type="text" id="lname" name="lname" value=""><br>
+                                    <label for="Fname">CEP:</label><br>
+                                    <input type="text" id="lname" name="lname" value=""><br>
+                                </fieldset>
+                        </form>
+                    </th> 
+                </tr>
+            </table>
+        <br>
+        <h2>Dados Complementares</h2>
+        <table style="width:100%">
+                <tr>
+                    <th>
+                        <form>
+                                <fieldset> 
+                                        <legend>Dados Complementares:</legend>  
+                                        <label for="Fname">e-mail:</label><br>
+                                        <input type="text" id="lname" name="lname" value=""><br>
+                                        <label for="pwd">Senha:</label><br>
+                                        <input type="password" id="pwd" name="pwd"><br>
+                                        <label for="pwd">Confirmação da Senha:</label><br>
+                                        <input type="password" id="pwd" name="pwd">
+                                </fieldset>
+                        </form>
+                    </th> 
+                </tr>
+        </table> <br>
+        <!--<input type="submit" value="Enviar">-->
+        <input type="button" onclick="alert('Cadastro efetuado com Sucesso!')" value="Enviar!">
+    </body>
+</html>

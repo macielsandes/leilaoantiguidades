@@ -1,0 +1,24 @@
+Site Vendas de Antiguidades
+
+Pagina principal
+	Home
+		Menu 
+		Menus disponíveis
+		Produtos em Destaque
+		Cadastros
+		Fale Conosco
+		Dúvidas
+		Categorias		
+	Cadastro
+		Pessoas (F/J)
+		Produtos
+		Categorias
+		Formas de Pagamento
+	Loja Virtual
+		Categorias
+	Acesso Restrito
+		Confgirações
+			Configurações de Acesso
+			Permissões
+			
+			
